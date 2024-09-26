@@ -1,0 +1,51 @@
+{
+    "name": "react-portfolio",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "vite",
+      "start": "vite",
+      "build": "vite build",
+      "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-router-dom": "^6.0.0"
+    },
+    "devDependencies": {
+      "vite": "^4.0.0",
+      "eslint": "^8.0.0",
+      "eslint-plugin-react": "^7.0.0",
+      "eslint-config-airbnb": "^18.0.0",
+      "eslint-plugin-import": "^2.0.0",
+      "eslint-plugin-jsx-a11y": "^6.0.0",
+      "eslint-plugin-react-hooks": "^4.0.0"
+    },
+    "eslintConfig": {
+      "extends": [
+        "airbnb",
+        "plugin:react/recommended",
+        "plugin:jsx-a11y/recommended",
+        "plugin:react-hooks/recommended"
+      ],
+      "parser": "babel-eslint",
+      "parserOptions": {
+        "ecmaFeatures": {
+          "jsx": true
+        },
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+      },
+      "rules": {
+        "react/react-in-jsx-scope": "off" 
+      }
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  }
+  
